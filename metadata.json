@@ -1,0 +1,6 @@
+{
+  "name": "Relytik",
+  "description": "Broker's Reliable Ticketing Solutions - Corporate Profile & B2B Services Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
