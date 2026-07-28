@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="rt-logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B3D91" />
+      <stop offset="50%" stop-color="#164BA8" />
+      <stop offset="100%" stop-color="#2F80ED" />
+    </linearGradient>
+    <filter id="rt-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0B3D91" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Icon Mark: Ticket shape + Checkmark Tick -->
+  <g transform="translate(10, 12)" filter="url(#rt-shadow)">
+    <!-- Ticket Base Shape -->
+    <path d="M 8 4 
+             C 8 4, 44 4, 48 4 
+             C 52 4, 52 14, 52 18 
+             C 52 22, 52 32, 52 36 
+             C 52 40, 52 52, 48 52 
+             C 44 52, 8 52, 8 52 
+             C 4 52, 4 40, 4 36 
+             C 4 32, 4 22, 4 18 
+             C 4 14, 4 4, 8 4 Z" 
+          fill="url(#rt-logo-grad)" />
+    <!-- Ticket Notches -->
+    <circle cx="4" cy="28" r="5" fill="#FFFFFF" />
+    <circle cx="52" cy="28" r="5" fill="#FFFFFF" />
+    <!-- Inner Checkmark Tick -->
+    <path d="M 18 28 L 25 35 L 39 19" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  
+  <!-- Typography -->
+  <!-- "Relytik" text -->
+  <text x="76" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="28" fill="#0B3D91" letter-spacing="-0.5">Rely<tspan fill="#2F80ED">tick</tspan></text>
+  
+  <!-- Tagline -->
+  <text x="77" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="9" fill="#64748B" letter-spacing="1.2">BROKER'S TICKETING SOLUTIONS</text>
+</svg>
